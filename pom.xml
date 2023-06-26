@@ -141,7 +141,7 @@
         </dependency>
 
         <dependency>
-            <groupId>io.github.mooy1</groupId>
+            <groupId>com.github.SlimefunGuguProject</groupId>
             <artifactId>InfinityLib</artifactId>
             <version>1.3.9</version>
             <scope>compile</scope>
@@ -180,6 +180,13 @@
             <artifactId>bstats-bukkit</artifactId>
             <version>3.0.0</version>
             <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>net.guizhanss</groupId>
+            <artifactId>GuizhanLibPlugin</artifactId>
+            <version>1.2.2</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>

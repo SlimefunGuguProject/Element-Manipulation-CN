@@ -8,10 +8,13 @@ import me.lucasgithuber.elementmanipulation.items.Materials;
 import me.lucasgithuber.elementmanipulation.machines.Machines;
 import me.lucasgithuber.elementmanipulation.misc.MiscItems;
 import me.lucasgithuber.elementmanipulation.utils.Categories;
+import net.guizhanss.guizhanlibplugin.updater.GuizhanUpdater;
 import net.kyori.adventure.text.minimessage.MiniMessage;
 import net.kyori.adventure.text.minimessage.tag.resolver.TagResolver;
 import net.kyori.adventure.text.minimessage.tag.standard.StandardTags;
 import org.bstats.bukkit.Metrics;
+
+import java.util.logging.Level;
 
 
 public final class ElementManipulation extends AbstractAddon implements SlimefunAddon {
@@ -26,11 +29,19 @@ public final class ElementManipulation extends AbstractAddon implements Slimefun
             )
             .build();
     public ElementManipulation() {
-        super("lucasGithuber", "Element-Manipulation", "master", "options.auto-update");
+        super("SlimefunGuguProject", "ElementManipulation", "master", "options.auto-update");
     }
     @Override
     public void enable() {
         i = this;
+
+        if (!getServer().getPluginManager().isPluginEnabled("GuizhanLibPlugin")) {
+            getLogger().log(Level.SEVERE, "本插件需要 鬼斩前置库插件(GuizhanLibPlugin) 才能运行!");
+            getLogger().log(Level.SEVERE, "从此处下载: https://50l.cc/gzlib");
+            getServer().getPluginManager().disablePlugin(this);
+            return;
+        }
+
         // Setup
         Categories.setup(this);
         Elements.setup(this);
@@ -40,6 +51,10 @@ public final class ElementManipulation extends AbstractAddon implements Slimefun
         //Drugs.setup(this);
         /*PortalCorners.setup(this);*/
         new Metrics(this, 13718);
+
+        if (getConfig().getBoolean("options.auto-update", true) && getDescription().getVersion().startsWith("Build")) {
+            GuizhanUpdater.start(this, getFile(), "haiman233", "Element-Manipulation-CN", "master");
+        }
     }
 
     @Override
