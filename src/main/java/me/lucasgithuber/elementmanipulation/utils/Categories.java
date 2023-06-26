@@ -37,7 +37,7 @@ public class Categories {
     public static final ItemGroup DIMENSIONS = new SubGroup(
             "em_dimensions",
             new CustomItemStack(new ItemStack(Material.RED_STAINED_GLASS), BukkitComponentSerializer.legacy().serialize
-                    (ElementManipulation.MM.deserialize("<rainbow>维度</rainbow>"))));
+                    (ElementManipulation.MM.deserialize("<rainbow>纬度</rainbow>"))));
     public static final ItemGroup MISCELLANEOUS = new SubGroup(
             "em_misc",
             new CustomItemStack(new ItemStack(Material.LIGHT_WEIGHTED_PRESSURE_PLATE), BukkitComponentSerializer.legacy().serialize
@@ -46,7 +46,7 @@ public class Categories {
     public static final ItemGroup INFO = new SubGroup(
             "em_info",
             new CustomItemStack(new ItemStack(Material.KNOWLEDGE_BOOK),
-                    ChatColor.GREEN + "公告"
+                    ChatColor.GREEN + "信息"
             ));
     public static final ItemGroup MAIN = new MultiGroup(
             "em_main",

@@ -35,7 +35,7 @@ public final class JunctionTable extends io.github.mooy1.infinitylib.machines.Cr
     private static final int RECIPE_SLOT = 7;
     public static final MachineRecipeType TYPE = new MachineRecipeType("em_junction_table",
             new CustomItemStack(Machines.EMJunctionTable, Machines.EMJunctionTable.getDisplayName(),
-                    "", "&c请查询粘液科技书以输入正确的配方!"));
+                    "", "&c请查询粘液科技指南以获取正确的配方！"));
 
     private final int energy;
 
@@ -77,7 +77,7 @@ public final class JunctionTable extends io.github.mooy1.infinitylib.machines.Cr
         if (charge < this.energy) {
             p.sendMessage(
                     ChatColor.RED + "没有足够的电力!",
-                    ChatColor.GREEN + "功率: " + ChatColor.RED + charge + ChatColor.GREEN + "/" + this.energy + " J"
+                    ChatColor.GREEN + "电力：" + ChatColor.RED + charge + ChatColor.GREEN + "/" + this.energy + " J"
             );
         } else {
             super.craft(b, menu, p);

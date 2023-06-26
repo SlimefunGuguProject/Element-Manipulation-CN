@@ -12,9 +12,9 @@ public class RecipeTypes {
     public static final SlimefunItemStack INFO_BOOK = new SlimefunItemStack(
             "INFO_BOOK",
             Material.BOOK,
-            ChatColor.GREEN + "告示书",
+            ChatColor.GREEN + "信息书",
             ChatColor.DARK_GREEN + "它可以告诉你关于该附属的基本信息"
     );
-    public static final RecipeType EM_DECONSTRUCTOR = new RecipeType(new NamespacedKey(ElementManipulation.i(), "em_deconstructor_recipetype"), Machines.EMDeconstructor, "", "&8通过物品解构机提取");
-    public static final RecipeType INFO = new RecipeType(new NamespacedKey(ElementManipulation.i(), "em_info_recipetype"), INFO_BOOK, "", ChatColor.DARK_GREEN + "这是一本告示书, 你必须按照 \"recipe\" 告诉你的去做");
+    public static final RecipeType EM_DECONSTRUCTOR = new RecipeType(new NamespacedKey(ElementManipulation.i(), "em_deconstructor_recipetype"), Machines.EMDeconstructor, "", "&8Extract using the deconstructor");
+    public static final RecipeType INFO = new RecipeType(new NamespacedKey(ElementManipulation.i(), "em_info_recipetype"), INFO_BOOK, "", ChatColor.DARK_GREEN + "This is an informational book, you must make what the \"recipe\" tells you");
 }

@@ -23,42 +23,36 @@
         "EM_WATERBUCKET",
         Material.WATER_BUCKET,
         "&f化工水桶",
-
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack CARROT = new SlimefunItemStack(
         "EM_CARROT",
         Material.CARROT,
         "&f化工胡萝卜",
-
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack COCOA = new SlimefunItemStack(
         "EM_COCOA",
         Material.COCOA_BEANS,
         "&f化工可可豆",
-
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack NETHER_WART = new SlimefunItemStack(
         "EM_WART",
         Material.NETHER_WART,
         "&f化工下界疣",
-
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack POTATO = new SlimefunItemStack(
         "EM_POTATO",
         Material.POTATO,
         "&f化工马铃薯",
-		
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack PUMPKIN_SEEDS = new SlimefunItemStack(
         "EM_PUMPKIN_SEEDS",
         Material.PUMPKIN_SEEDS,
         "&f化工南瓜种子",
-
         "&f可在原版工作台中使用"
     );
 
@@ -67,7 +61,6 @@
         "EM_REDSTONE",
         Material.REDSTONE,
         "&f化工红石",
-
         "&f可在原版工作台中使用"
     );
 
@@ -75,189 +68,162 @@
         "EM_BERRIES",
         Material.SWEET_BERRIES,
         "&f化工甜菜根",
-
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack WHEAT_SEEDS = new SlimefunItemStack(
         "EM_WHEAT_SEEDS",
         Material.WHEAT_SEEDS,
         "&f化工小麦种子",
-
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack APPLE = new SlimefunItemStack(
         "EM_APPLE",
         Material.APPLE,
         "&f化工苹果",
-		
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack BEETROOT_SEEDS = new SlimefunItemStack(
         "EM_BEETROOT_SEEDS",
         Material.BEETROOT_SEEDS,
         "&f化工甜菜根种子",
-
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack BONE = new SlimefunItemStack(
         "EM_BONE",
         Material.BONE,
         "&f化工骨头",
-		
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack GOLD_INGOT = new SlimefunItemStack(
         "EM_GOLD_INGOT",
         Material.GOLD_NUGGET,
         "&f化工金锭",
-
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack HONEY = new SlimefunItemStack(
         "EM_HONEY",
         Material.HONEY_BOTTLE,
         "&f化工蜂蜜瓶",
-
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack INK = new SlimefunItemStack(
         "EM_INK",
         Material.INK_SAC,
         "&f化工墨囊",
-		
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack LAPIS_LAZULI = new SlimefunItemStack(
         "EM_LAPIS",
         Material.LAPIS_LAZULI,
         "&f化工青金石",
-		
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack MELON_SEEDS = new SlimefunItemStack(
         "EM_MELON_SEEDS",
         Material.MELON_SLICE,
         "&f化工西瓜种子",
-
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack POISON_POTATO = new SlimefunItemStack(
         "EM_POISON_POTATO",
         Material.POISONOUS_POTATO,
         "&f化工毒马铃薯",
-
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack SUGAR = new SlimefunItemStack(
         "EM_SUGAR",
         Material.SUGAR,
         "&f化工糖",
-
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack CLAY = new SlimefunItemStack(
         "EM_CLAY",
         Material.CLAY_BALL,
         "&f化工粘土球",
-
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack COAL = new SlimefunItemStack(
         "EM_COAL",
         Material.COAL,
         "&f化工煤炭",
-
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack DIAMOND = new SlimefunItemStack(
         "EM_DIAMOND",
         Material.DIAMOND,
         "&f化工钻石",
-
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack EMERALD = new SlimefunItemStack(
         "EM_EMERALD",
         Material.EMERALD,
         "&f化工绿宝石",
-
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack FLINT = new SlimefunItemStack(
         "EM_FLINT",
         Material.FLINT,
         "&f化工燧石",
-		
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack TEAR = new SlimefunItemStack(
         "EM_TEAR",
         Material.GHAST_TEAR,
         "&f化工恶魂之泪",
-		
         "&f可在原版工作台中使用"
     );
     public static final SlimefunItemStack QUARTZ = new SlimefunItemStack(
         "EM_QUARTZ",
         Material.QUARTZ,
         "&f化工下界石英",
-		
         "&f可在原版工作台中使用"
     );
         public static final SlimefunItemStack SAND = new SlimefunItemStack(
                 "EM_SAND",
                 Material.SAND,
                 "&f化工沙子",
-				
                 "&f可在原版工作台中使用"
         );
         public static final SlimefunItemStack EGG = new SlimefunItemStack(
                 "EM_EGG",
                 Material.EGG,
                 "&f化工鸡蛋",
-				
                 "&f可在原版工作台中使用"
         );
         public static final SlimefunItemStack LEAVES = new SlimefunItemStack(
                 "EM_LEAVES",
                 Material.OAK_LEAVES,
                 "&f化工橡树树叶",
-				
                 "&f可在原版工作台中使用"
         );
         public static final SlimefunItemStack MAGMA = new SlimefunItemStack(
                 "EM_MAGMA_BALL",
                 Material.MAGMA_CREAM,
                 "&f化工岩浆球",
-				
                 "&f可在原版工作台中使用"
         );
         public static final SlimefunItemStack TERRACOTA = new SlimefunItemStack(
                 "EM_TERRACOTA",
                 Material.TERRACOTTA,
                 "&f化工陶瓦",
-				
                 "&f可在原版工作台中使用"
         );
         public static final SlimefunItemStack OBSIDIAN = new SlimefunItemStack(
                 "EM_OBSIDIAN",
                 Material.OBSIDIAN,
                 "&f化工黑曜石",
-				
                 "&f可在原版工作台中使用"
         );
         public static final SlimefunItemStack GLASS = new SlimefunItemStack(
                 "EM_GLASS",
                 Material.GLASS,
                 "&f化工玻璃",
-				
                 "&f可在原版工作台中使用"
         );
         public static final SlimefunItemStack SUGAR_CANE = new SlimefunItemStack(
                 "EM_SUGAR_CANE",
                 Material.SUGAR_CANE,
                 "&f化工甘蔗",
-				
                 "&f可在原版工作台中使用"
         );
 

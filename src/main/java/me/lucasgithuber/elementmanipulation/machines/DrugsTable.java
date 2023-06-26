@@ -35,7 +35,7 @@ public final class DrugsTable extends io.github.mooy1.infinitylib.machines.Craft
     private static final int RECIPE_SLOT = 0;
     public static final MachineRecipeType TYPE = new MachineRecipeType("em_drugs_table",
             new CustomItemStack(Machines.DRUGS_TABLE, Machines.DRUGS_TABLE.getDisplayName(),
-                    "", "&c请查询粘液科技书以输入正确的配方!"));
+                    "", "&c请查询粘液科技指南以获取正确的配方！"));
 
     private final int energy;
 
@@ -79,7 +79,7 @@ public final class DrugsTable extends io.github.mooy1.infinitylib.machines.Craft
         if (charge < this.energy) {
             p.sendMessage(
                     ChatColor.RED + "没有足够的电力!",
-                    ChatColor.GREEN + "功率: " + ChatColor.RED + charge + ChatColor.GREEN + "/" + this.energy + " J"
+                    ChatColor.GREEN + "电力: " + ChatColor.RED + charge + ChatColor.GREEN + "/" + this.energy + " J"
             );
         } else {
             super.craft(b, menu, p);

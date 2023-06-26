@@ -75,9 +75,9 @@ public class DrugsGroup extends FlexItemGroup {
     private static final int DRUGS_TABLE = 27;
 
     private static final ItemStack CRAFT = new CustomItemStack(Material.TINTED_GLASS,
-            ChatColor.GREEN + "根据库存中的物品创建配方: ",
-            "&a左击创建1次",
-            "&a右击创建多次"
+            ChatColor.GREEN + "根据库存摆放配方",
+            "&a左键点击摆放1次",
+            "&a右键点击尽可能摆放多次"
     );
     private static final SlimefunGuideImplementation GUIDE = Slimefun.getRegistry().getSlimefunGuide(SlimefunGuideMode.SURVIVAL_MODE);
     private static final Map<UUID, String> HISTORY = new HashMap<>();
@@ -169,7 +169,7 @@ public class DrugsGroup extends FlexItemGroup {
                         "",
                         "&a> 单击解锁",
                         "",
-                        "&7耗费: &b" + research.getCost() + " 经验等级"
+                        "&7花费：&b" + research.getCost() + " 经验等级"
                 );
                 menu.addItem(i, resItem, (p, slot, item1, action) -> {
                     research.unlockFromGuide(GUIDE, p, entry.profile, sfItem, Categories.DRUGS_CATEGORY, 0);
